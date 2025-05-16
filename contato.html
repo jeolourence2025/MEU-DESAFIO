@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato - Ford</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <img src="img/ford-96.png" alt="Logomarca Ford" class="logo" />
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="lancamento.html">Lançamento</a>
+      <a href="contato.html" class="active">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contato-container">
+      <div class="imagem-contato">
+        <img src="img/XL Cabine.jpg" alt="Imagem do carro" />
+      </div>
+
+      <div class="formulario-contato">
+        <h2>Contato</h2>
+        <form>
+  <input type="text" placeholder="NOME*" required />
+
+  <input type="email" placeholder="E-MAIL*" required />
+
+  <input type="tel" placeholder="TELEFONE*" required />
+
+  <select required>
+    <option disabled selected>COMO DESEJA SER CONTATADO</option>
+    <option>E-mail</option>
+    <option>Telefone</option>                        
+  </select>         
+
+  <!-- NOVO SELECT para tipo de mensagem -->
+  <label for="tipo">TIPO DE MENSAGEM*</label>
+  <select id="tipo" name="tipo" required>
+    <option disabled selected>Escolha uma opção</option>
+    <option value="ELOGIO">ELOGIO</option>
+    <option value="RECLAMAÇÃO">RECLAMAÇÃO</option>
+    <option value="SOLICITAÇÃO">SOLICITAÇÃO</option>
+  </select>
+
+  <textarea placeholder="MENSAGEM*" required></textarea>
+
+  <button type="submit">Enviar</button>
+</form>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  <div class="rodape">
+    <div class="redes-sociais">
+      <p>Redes Sociais</p>
+      <a href="#"><img src="img/facebook-50.png" alt="Facebook"></a>
+      <a href="#"><img src="img/instagram-logo-50.png" alt="Instagram"></a>
+      <a href="#"><img src="img/youtube-squared-50.png" alt="YouTube"></a>
+    </div>
+    <div class="logo-rodape">
+      <img src="img/ford-96.png" alt="Logo Ford Rodapé">
+    </div>
+  </div>
+  <div class="direitos">
+    <p>&copy; 2025 Ford Brasil. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+</body>
+</html>
